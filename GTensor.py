@@ -134,7 +134,7 @@ G=G.ravel().reshape(len(F),9)
 # Write Data to the output file
 OutFile=args.ascii.split('.')
 OutFile=OutFile[0]+'_'+'GTensor'+'.txt'
-outfile=(OutFile,'w')
+outfile=open(OutFile,'w')
 outfile.write(HeadStr)
 for item in P:
   outfile.write(item)
