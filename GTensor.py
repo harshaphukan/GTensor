@@ -34,7 +34,7 @@ A.close()
 
 # Get Starting Index Values for the data items
 for ii in range(len(VarName)):
-  if VarName[ii]=='1_APS':
+  if VarName[ii]=='1_APS' or VarName[ii]=='1_TSL':
     CoordIndex00=ii
   if VarName[ii]=='1_aStar':
     Recip_a=ii
